@@ -1,0 +1,242 @@
+.trastedBySection{
+    margin: 100px 0px;
+}
+
+.brandItemsSection{
+
+}
+.brandItemsBlock .brandItemsContainer:not(:last-child){
+
+}
+
+
+.brandItemsBlock .brandItemsContainer .brandItems svg{
+    width: 150px;
+    height: 100px;
+}
+
+
+.analyticsSection{
+
+}
+
+.analyticsSection .analyticsBanner{
+    /* overflow: hidden; */
+    margin-top: 100px;
+    padding: 100px 100px 0 100px;
+    color: #ffffff;
+    position: relative;
+    height: fit-content;
+    min-height: 100%;
+}
+
+.analyticsSection .analyticsBanner::before{
+    /* background-image: url(./../assets/images/bg_img4.png); */
+    background-image: conic-gradient(from 325deg at 51% 35%, rgb(0 0 0 / 80%) , rgb(0 0 0));
+    background-size: cover;
+    width: 100%;    
+    height: 50%;
+    border-radius: 20px;
+    position: absolute;
+    content: '';
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+.detailBlock{
+     margin-bottom: 50px;
+}
+
+.detailBlock .detailAddress{
+    
+}
+
+.detailBlock .detailAddress .mailDetail button{
+   width: fit-content;
+   height: 40px;
+   background-color: #4BE3EB;
+   padding: 6px 24px;
+   border-radius: 3px;
+   color: var(--text-primary-color);
+   white-space: nowrap;
+   font-size: 14px;
+   border: none !important;
+   outline: none !important;
+   &:hover{
+     opacity: .8;
+   }
+}
+
+
+
+.detailBlock .detailAddress .mailDetail .inputField{
+   height: 40px;
+   border-radius: 3px;
+   width: 100%;
+   padding: 0px 10px;
+   background-color:  var(--bg-panel-color);
+}
+
+.detailBlock .detailAddress .mailDetail .inputField input{
+   width: 100%;
+   height: 100%;
+   border: unset !important;
+   font-size: 12px;
+   color: var(--text-primary-color);
+   outline: none !important
+}
+
+
+.analyticsContainer{
+    background-color: #efefef;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.analyticsDashboard{
+
+}
+
+.analyticsDashboard .asideMenu{
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.analyticsDashboard .asideMenu .asideMenuItem{
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.analyticsDashboard .asideMenu .asideMenuItem.active{
+    background: #FFD546;
+    border-color: transparent;
+}
+
+
+.analyticsDashboard .asideMenu .asideMenuItem svg{
+    width: 24px;
+    height: 24px;
+}
+
+
+.analyticsDashboard .asideMenu .asideMenuItem:last-child{
+    margin-top: auto;
+}
+
+.dashbordContent .dashbordHeader{
+    padding: 10px 0px;
+}
+
+.dashbordContent .dashbordHeader .searchPage{
+    padding: 7px 15px;
+    border-radius: 20px;
+    background-color: var(--bg-panel-color);
+}
+
+.searchPage svg{
+   width: 16px;
+   height: 16px;
+}
+
+.searchPage input{
+   border: unset;
+   outline: unset;
+ }
+
+.userProfile{
+    border-radius: 15px;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+}
+
+.userProfile img{ 
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   object-position: top;
+}
+
+.notificationItem{
+    border: 1px solid var(--border-color);
+    border-radius: 15px;
+    width: 35px;
+    height: 35px;
+}
+
+.notificationItem svg{
+    width: 14px;
+    height: 14px;
+}
+
+.LeftAnalyticsPanel{
+    width: calc(100% - 300px);
+}
+.rightAnalyticsPanel{
+    width: 300px;
+}
+
+
+.cardView{
+    background-color: var(--bg-panel-color);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+@media screen and (max-width: 768px) {
+    .trastedBySection{
+        margin: 80px 0px;
+    }
+        .brandItemsBlock .brandItemsContainer .brandItems:not(:nth-child(even)){
+       border-right: 1px solid var(--border-color);
+    }
+     .brandItemsBlock .brandItemsContainer .brandItems{
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .analyticsSection .analyticsBanner{
+        padding: 35px;
+    }
+
+    .LeftAnalyticsPanel{
+        width: calc(100%  - 10px);
+    }
+    .rightAnalyticsPanel{
+        width:  calc(100%  - 10px);
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .brandItemsBlock .brandItemsContainer:not(:last-child) .brandItems{
+        border-bottom: 1px solid var(--border-color);
+    }
+    
+    .brandItemsBlock .brandItemsContainer .brandItems:not(:last-child){
+       border-right: 1px solid var(--border-color);
+    }
+}
+
+@media screen and (max-width: 365px) {
+  
+    .analyticsContainer{
+        padding: 15px;
+        width: 90vw;
+        transform: translateX(-36px);
+    }
+}
+
+

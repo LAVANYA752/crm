@@ -1,0 +1,55 @@
+
+
+
+.salesModuleSection{
+    margin: 100px 0px;
+}
+
+.salesModuleContent{
+   border: 2px dashed var(--border-color);
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.salesModuleContentInner{
+  padding: 20px;
+  background-color: #F9F9F9;
+  border-radius: 10px;
+}
+
+.salesModuleListBlock{
+
+}
+
+.ListItem{
+   
+    display : flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.ListItem .ListItemIcon{
+  /* border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px; */
+}
+
+.ListItem .ListItemIcon svg{
+    width: 30px;
+    height: 30px;
+}
+
+.ListItem:not(:last-child) .ListItemContent{
+  border-bottom: 1px solid var(--border-color);
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .salesModuleSection{
+        margin: 80px 0px;
+    }
+}

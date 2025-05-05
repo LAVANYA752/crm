@@ -1,0 +1,35 @@
+.featureSection{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.cardBlock .cardItem:nth-child(odd){
+      background: #F4F4F4ED;
+}
+
+.cardBlock .cardItem:nth-child(even){
+    background: var(--bg-default);
+}
+
+.cardBlock .cardItem{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 3.169px 9.011px 0px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+    border: 1px solid #e9e9e98f;
+}
+
+.cardBlock .cardItem svg{
+   width : 50px;
+   height: 50px;  
+}
+
+
+@media screen and (max-width: 768px) {
+    .featureSection{
+        height: fit-content;
+        margin: 80px 0px;
+    }
+}

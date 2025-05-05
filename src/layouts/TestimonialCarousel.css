@@ -1,0 +1,46 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.carousel-container {
+  background-color: #1f1f1f;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.title {
+  color: #ccc;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.stars {
+  margin: 10px 0;
+  color: #fbb034;
+}
+
+.message {
+  font-style: italic;
+  margin: 20px auto;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+.stats div strong {
+  font-size: 20px;
+}
