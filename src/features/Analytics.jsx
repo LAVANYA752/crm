@@ -55,7 +55,7 @@ const Analytics = (isMobile) => {
                             </div>}
                         </div>
                         {isMobile && 
-                        <div class='flex gap-2'>
+                        <div class='flex gap-2 notificationPanel'>
                             <div className='notificationItem flex items-center justify-center'>
                                 <Icon name='notification' />
                             </div>

@@ -13,4 +13,20 @@
     font-weight: 700;
     font-style: normal;
   }
+
+
+  @font-face {
+    font-family: "Inter";
+    src: url("./assets/font/inter/Inter-VariableFont_opsz\,wght.ttf") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Inter";
+    src: url("./assets/font/inter/Inter-Italic-VariableFont_opsz\,wght.ttf") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+  }
+  
   

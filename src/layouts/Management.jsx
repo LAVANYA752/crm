@@ -6,7 +6,7 @@ import './Management.css'
 const Management = () => {
     return (
         <section className='managementSection'>
-            <div className='    2'>
+            <div className='container mx-auto px-4 md:px-12'>
                 <div className='flex flex-col-reverse md:flex-row items-center justify-between gap-8 md:gap-0'>
                     <div className='w-full flex items-center'>
                         <figure className='managementImage'>

@@ -3,10 +3,8 @@
 @tailwind utilities;
 
 
-
-
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -51,7 +49,8 @@ body {
   overflow-x: hidden;
   align-items: center;
   justify-content: center;
-  font-family: 'Outfit', sans-serif;
+  /* font-family: 'Outfit', sans-serif; */
+  font-family: "Inter", sans-serif;
 }
 
 #root{

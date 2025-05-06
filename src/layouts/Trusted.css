@@ -196,6 +196,17 @@
 
 
 @media screen and (max-width: 768px) {
+
+     .analyticsDashboard .asideMenu{
+        display : none;
+     }
+     .analyticsDashboard .notificationPanel{
+        display : none;
+     }
+     .analyticsDashboard .searchPage{
+        display : none;
+     }
+
     .trastedBySection{
         margin: 80px 0px;
     }

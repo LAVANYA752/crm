@@ -1,0 +1,56 @@
+.listBlock{
+    color: #47CFFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.performanceSection{
+    height: 100vh;
+}
+
+.performanceSection .backgroundImg{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+    height: 70vh;
+    width: 50%;
+    background-color: #efefef;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: 30% 90%;
+    background-position: right bottom;
+    background-image: url(./../assets/images/performance.svg);
+}
+
+.LinkText{
+    color: #47CFFF;
+}
+
+.rightContainer{
+    z-index: 10;
+    width: 75%;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    .performanceSection{
+        height: fit-content;
+        margin: 80px 0px;
+        flex-direction: column;
+    }
+    .rightContainerParent{
+           position: relative;
+           display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 0px;
+    }
+
+    .performanceSection .backgroundImg{
+        height: 100%;
+        width: 100%;
+    }
+}

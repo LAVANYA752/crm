@@ -4,8 +4,9 @@ import Footer from '../features/Footer'
 import Features from '../layouts/Features'
 import Home from '../layouts/Home'
 import Management from '../layouts/Management'
+import Performance from '../layouts/performance'
 import SalesModules from '../layouts/Salesmodules'
-// import TestimonialCarousel from '../layouts/TestimonialCarousel'
+import TestimonialCarousel from '../layouts/TestimonialCarousel'
 import Trusted from '../layouts/Trusted'
 
 
@@ -19,7 +20,8 @@ const Index = () => {
         <Management />
         <Trusted />
         <SalesModules />
-        {/* <TestimonialCarousel /> */}
+        <TestimonialCarousel />
+        <Performance />
         <Footer />
       </main>
     </>
