@@ -33,16 +33,16 @@ const chartData = {
       label: 'Income',
       data: data.map(item => item.income),
       fill: true,
-      borderColor: '#4CAF50', // Green
-      backgroundColor: '#4CAF502a',
+      borderColor: '#22d3ee', // Green
+      backgroundColor: '#22d3ee2a',
       tension: 0.4,
     },
     {
       label: 'Expenses',
       data: data.map(item => item.expenses),
       fill: true    ,
-      borderColor: '#F44336', // Red
-      backgroundColor: '#F443362a',
+      borderColor: '#f472b6', // Red
+      backgroundColor: '#f472b62a',
       tension: 0.4,
     },
   ],
