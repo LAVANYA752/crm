@@ -1,5 +1,5 @@
 
-import Sprite from '../component/ui/svg/sprite'
+import Sprite from '../component/ui/svg/Sprite'
 import Footer from '../features/Footer'
 import Features from '../layouts/Features'
 import Home from '../layouts/Home'
