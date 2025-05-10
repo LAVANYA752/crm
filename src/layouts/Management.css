@@ -1,5 +1,10 @@
 .managementSection{
-       height: 100vh
+       height: 100vh;
+       background-image: url(./../assets/images/bg_img_3.png);
+       display: flex;
+       align-items: center;
+       background-repeat: no-repeat;
+       background-size: 41%;
 }
 
 .managementSection .managementImage{
@@ -17,11 +22,134 @@
     /* box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px; */
 }
 
+.managementAnalytics{
+    background: rgba(242, 242, 242, 0.93);
+    border-radius: 15px;
+    padding: 30px;  
+    /* box-shadow: -33px 60px 72px 0px rgba(155, 155, 155, 0.2); */
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.managementAnalytics .cardBlock{
+    background: #f4f4f4;
+    box-shadow: -33px 60px 72px 0px rgba(155, 155, 155, 0.2);
+    position: relative;
+}
+.managementAnalytics .cardBlock::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 9px -8px 0px -6px rgba(255,255,255,0.53);
+    border-radius: 15px;
+    z-index: 0;
+    /* background: linear-gradient(to right, transparent 50%, #fff 50%); */
+}
+
+.lineChartBlock{
+    border-radius: 15px;
+    padding: 15px;
+    width: calc(100% - 180px)
+}
+
+.pieChartBlock{
+    border-radius: 100%;
+    padding: 10px;
+    width: 180px;
+    height: 180px;  
+}
+
+.managementAnalytics .pieChartBlock.cardBlock::before{
+    border-radius: 100%;
+}
+
+.managementAnalytics .analyticsBlock{
+   border-radius: 10px;
+   padding: 15px;
+
+}
+
+.managementAnalytics  .leadeDataBlock{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.taskManagerBlock{
+    padding: 20px;
+    z-index: 9;
+    border-radius: 15px;
+    
+}
+
+.taskManagerBlock .managementToolIcon svg{
+    width:  24px;
+    height: 24px;   
+    fill: #CFCFCF ;
+    cursor: pointer;
+}
+.taskManagerBlock .managementToolIcon.active svg{  
+    fill: #2FCF3F 
+}
+
+.managementTool{
+    z-index: 999;
+    position: relative;
+}
+
+
+
+.managementTool{
+
+}
+
+.progressRow .label{
+    font-size: 12px;
+}
+
+.progressBar {
+    flex: 3;
+    background: #e0e0e0;
+    border-radius: 6px;
+    height: 14px;
+    margin: 0 10px;
+    overflow: hidden;
+  }
+  
+  .progressFill {
+    height: 100%;
+    width: 0;
+    transition: width 1s ease-in-out;
+    border-radius: 6px;
+  }
+  
+  .percent {
+    width: 40px;
+    text-align: right;
+    font-size: 12px;
+  }
+
+  .responsiveChart .textBlock{
+         top: 0px;
+         position: absolute;
+         left: 0px;
+  }
+
 
 @media screen and (max-width: 768px) {
     .managementSection{
         height: fit-content;
         margin: 80px 0px;
         flex-direction: column;
+    }
+    .managementAnalytics  .leadeDataBlock{
+        flex-direction: column;
+        justify-content: center;
     }
 }

@@ -31,8 +31,12 @@
     background-repeat: no-repeat;
 }
 
+.heroContentContainerWrapper{
+    width: 100%
+}
+
 .heroSection .heroContentContainer{
-   width: 40%;
+   width: 80%;
 }
 
 .heroContentContainer{
@@ -109,7 +113,7 @@
 }
 
 .heroSection .heroImageContainer{
-    width: 60%;
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -140,9 +144,137 @@
   }
   
   .card-animation {
-    animation: floatCard 2.5s ease-in-out infinite;
-  }
+      animation: floatCard 2.5s ease-in-out infinite;
+    }
+    
 
+/* Analytics */
+
+.homeBannerAnalyticsCard{
+    transform: rotate(338deg);
+    width: 100%;
+    position: relative;
+}
+.homeBannerAnalyticsCard::before{
+    background-image: url(./../assets/images/pattern_img3.png);
+    background-repeat: no-repeat;
+    background-size: 77%;
+    background-position: -12% 61%;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    transform: rotate(9deg) translateX(-43px);
+   
+}
+
+.homeBannerAnalyticsCard .circleDotBlock{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 7px;
+    margin-bottom: 7px;
+
+}
+.homeBannerAnalyticsCard .circleDotBlock .circleDot{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.homeBannerAnalyticsCard .circleDotBlock .circleDot:nth-child(1){
+    background: rgba(101, 198, 127, 1);
+}
+.homeBannerAnalyticsCard .circleDotBlock .circleDot:nth-child(2){
+    background: rgba(249, 190, 65, 1);
+}
+.homeBannerAnalyticsCard .circleDotBlock .circleDot:nth-child(3){
+    background: rgba(255, 115, 115, 1);
+}
+
+.homeBannerAnalyticsCard .cardBlock{
+   position: relative;
+    background: linear-gradient(276.48deg, rgba(244, 244, 244, 0.93) 14.41%, rgba(244, 244, 244, 0.93) 47.68%, rgba(255, 255, 255, 0.93) 93.27%);
+    box-shadow: -33px 60px 72px 0px rgba(155, 155, 155, 0.2);
+}
+
+.homeBannerAnalyticsCard .cardBlock::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 8px -8px 0px -6px rgb(255 255 255 / 93%);
+    border-radius: 22px;
+    z-index: 0;
+}
+
+.homeBannerAnalyticsCard .miniLineCard{
+    border-radius: 20px;
+    padding: 20px;
+}
+.homeBannerAnalyticsCard .miniLineCard .chartBlock{
+    height: 120px;
+}
+
+.homeBannerAnalyticsCard .donutCard{
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.homeBannerAnalyticsCard .statisticsCard{
+    border-radius: 20px;
+    padding: 15px;
+}
+.homeBannerAnalyticsCard .statisticsCard .chartBlock{
+    box-shadow: 0px 2.57px 2.57px 0px rgba(201, 201, 201, 0.25);
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    width: 250px;
+}
+.homeBannerAnalyticsCard .statisticsCard .chartBlock .chartArrow svg{
+    width: 10px;
+    height: 10px;
+}
+.homeBannerAnalyticsCard .statisticsCard .chartBlock .chartArrow > *:last-child{
+   transform: rotate(180deg);
+}
+
+.homeBannerAnalyticsCard  .earningsCard{
+    border-radius: 20px;
+    padding: 20px;   
+    display: flex;
+    gap: 20px;   
+}
+.homeBannerAnalyticsCard  .earningsCard .circleIcon{
+     position: relative;
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     background-color: rgba(235, 225, 255, 1);
+}
+
+.homeBannerAnalyticsCard  .earningsCard .circleIcon::before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    content: '';
+    border-radius: 50%;
+    background-color: rgba(150, 124, 246, 1);
+}
+
+.homeBannerAnalyticsCard .barCard{
+    border-radius: 20px;
+    padding: 20px;  
+}
+.homeBannerAnalyticsCard .barCard .chartBlock{  
+    height: 100px;
+}
 
 
 

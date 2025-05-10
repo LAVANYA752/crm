@@ -15,14 +15,14 @@ import { Line } from 'react-chartjs-2';
 ChartJS.register(LineElement, PointElement, CategoryScale, LinearScale, Filler, Tooltip, Legend);
 
 const data = [
-  { month: 'Jan', income: 10000, expenses: 8000 },
-  { month: 'Feb', income: 15000, expenses: 10000 },
-  { month: 'Mar', income: 18000, expenses: 12000 },
-  { month: 'Apr', income: 25000, expenses: 20000 },
-  { month: 'May', income: 20000, expenses: 15000 },
-  { month: 'Jun', income: 22000, expenses: 18000 },
-  { month: 'Jul', income: 18000, expenses: 15000 },
-  { month: 'Aug', income: 15000, expenses: 12000 },
+  { month: 'Jan', income: 0, expenses: 0 },
+  { month: 'Feb', income: 18000, expenses: 10000 },
+  { month: 'Mar', income: 15000, expenses: 12000 },
+  { month: 'Apr', income: 25000, expenses: 18000 },
+  { month: 'May', income: 20000, expenses: 29000 },
+  { month: 'Jun', income: 5000, expenses: 12000 },
+  { month: 'Jul', income: 10000, expenses: 15000 },
+  { month: 'Aug', income: 0, expenses: 0 },
 ];
 
 // Chart config
@@ -34,16 +34,33 @@ const chartData = {
       data: data.map(item => item.income),
       fill: true,
       borderColor: '#22d3ee', // Green
-      backgroundColor: '#22d3ee2a',
+      // backgroundColor: '#22d3ee2a',
+      backgroundColor: (context) => {
+        const ctx = context.chart.ctx;
+        const gradient = ctx.createLinearGradient(0, 0, 0, 200);
+        gradient.addColorStop(0, '#22d3ee2a');
+        gradient.addColorStop(1, '#ffffff');
+        return gradient;
+      },
       tension: 0.4,
+      pointRadius: 0,
+
     },
     {
       label: 'Expenses',
       data: data.map(item => item.expenses),
       fill: true    ,
       borderColor: '#f472b6', // Red
-      backgroundColor: '#f472b62a',
+      // backgroundColor: '#f472b62a',
+      backgroundColor: (context) => {
+        const ctx = context.chart.ctx;
+        const gradient = ctx.createLinearGradient(0, 0, 0, 200);
+        gradient.addColorStop(0, '#f472b62a');
+        gradient.addColorStop(.9, '#ffffff');
+        return gradient;
+      },
       tension: 0.4,
+      pointRadius: 0,
     },
   ],
 };
@@ -53,13 +70,19 @@ const options = {
   plugins: {
     legend: {
       position: 'top',
+      labels: {
+        boxWidth: 10,  
+        boxHeight: 10,  
+        boxBorderRadius: 10,
+      },
     },
   },
   scales: {
-    x: {},
+    x: {  grid: { display: false },border: { display: false },},
     y: {
       min: 0, 
       max: 30000, 
+      border: { display: false },
       ticks: {
         maxTicksLimit: 4,
       },

@@ -1,0 +1,34 @@
+<svg width="190" height="190" viewBox="0 0 190 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+<foreignObject x="0.649689" y="-6.78882" width="189.255" height="196.693"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(10.72px);clip-path:url(#bgblur_0_1_877_clip_path);height:100%;width:100%"></div></foreignObject><g filter="url(#filter0_di_1_877)" data-figma-bg-blur-radius="21.4385">
+<path d="M28.653 81.9301C28.2923 45.1346 57.8287 15.0136 94.6242 14.653C131.42 14.2923 161.541 43.8287 161.901 80.6242C162.262 117.42 132.726 147.541 95.9301 147.901C59.1346 148.262 29.0136 118.726 28.653 81.9301Z" fill="url(#paint0_linear_1_877)" fill-opacity="0.93" shape-rendering="crispEdges"/>
+</g>
+<circle cx="81.6094" cy="96.6091" r="16.5" fill="#E0D9FF"/>
+<path d="M79.1094 84.1091V97.5384C79.1094 97.955 79.2779 98.3545 79.578 98.6491C79.8781 98.9436 80.285 99.1091 80.7094 99.1091H109.509C109.934 99.1091 110.341 98.9436 110.641 98.6491C110.941 98.3545 111.109 97.955 111.109 97.5384V84.1091" stroke="#6B49F1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M79.6927 63.1091H110.526C110.888 63.1122 111.239 63.2346 111.527 63.4584C111.816 63.6821 112.028 63.9954 112.13 64.352L115.109 75.1091H75.1094L78.0885 64.352C78.1912 63.9954 78.4025 63.6821 78.6913 63.4584C78.9801 63.2346 79.3311 63.1122 79.6927 63.1091V63.1091Z" stroke="#6B49F1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M89.1094 75.1091V78.4425C89.1094 80.2106 88.3719 81.9063 87.0591 83.1565C85.7464 84.4068 83.9659 85.1091 82.1094 85.1091C80.2529 85.1091 78.4724 84.4068 77.1596 83.1565C75.8469 81.9063 75.1094 80.2106 75.1094 78.4425V75.1091" stroke="#6B49F1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M101.109 75.1091V78.4425C101.109 80.2106 100.477 81.9063 99.352 83.1565C98.2268 84.4068 96.7007 85.1091 95.1094 85.1091C93.5181 85.1091 91.992 84.4068 90.8667 83.1565C89.7415 81.9063 89.1094 80.2106 89.1094 78.4425V75.1091" stroke="#6B49F1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M115.109 75.1091V78.4425C115.109 80.2106 114.372 81.9063 113.059 83.1565C111.746 84.4068 109.966 85.1091 108.109 85.1091C106.253 85.1091 104.472 84.4068 103.16 83.1565C101.847 81.9063 101.109 80.2106 101.109 78.4425V75.1091" stroke="#6B49F1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<filter id="filter0_di_1_877" x="0.649689" y="-6.78882" width="189.255" height="196.693" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="14"/>
+<feGaussianBlur stdDeviation="14"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.804167 0 0 0 0 0.804167 0 0 0 0 0.804167 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_877"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_877" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-2.57262" dy="2.57262"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow_1_877"/>
+</filter>
+<clipPath id="bgblur_0_1_877_clip_path" transform="translate(-0.649689 6.78882)"><path d="M28.653 81.9301C28.2923 45.1346 57.8287 15.0136 94.6242 14.653C131.42 14.2923 161.541 43.8287 161.901 80.6242C162.262 117.42 132.726 147.541 95.9301 147.901C59.1346 148.262 29.0136 118.726 28.653 81.9301Z"/>
+</clipPath><linearGradient id="paint0_linear_1_877" x1="149.967" y1="62.7058" x2="34.3099" y2="50.7076" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F4F4F4"/>
+<stop offset="0.421875" stop-color="#F4F4F4"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+</defs>
+</svg>

@@ -4,7 +4,7 @@ import Icon from "../component/ui/svg/Icons";
 const categories = [
   {
     iconBg: "bg-indigo-500",
-    icon: "game", // Temporary emoji; you can replace with SVG or icon component
+    icon: "game", 
     title: "Entertainment",
     percentage: 40,
   },
